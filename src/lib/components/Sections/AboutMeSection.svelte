@@ -3,7 +3,6 @@
     import image from "$assets/about-me.jpeg"
     import Button from "$components/Button.svelte";
     import { goto } from "$app/navigation";
-    import type { DevExperience } from "$lib/types/sanity";
 
     interface AboutMeProps
     {
