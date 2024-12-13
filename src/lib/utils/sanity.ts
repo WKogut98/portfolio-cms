@@ -11,7 +11,7 @@ const config: ClientConfig ={
 const sanityClient = createClient(config);
 export default sanityClient;
 
-export function processProjectEntries(rawProject: Project)
+export function processProjectEntry(rawProject: Project)
 {
     const imgURLbuilder = urlBuilder(sanityClient);
     const projectImageUrl = imgURLbuilder.image(rawProject.image).url();
