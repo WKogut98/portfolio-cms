@@ -8,8 +8,9 @@ export const load: PageLoad = async () => {
 
 
     const rawProjects: Project[] = await sanityClient.fetch('*[_type == "project"] | order(date desc)');
+    const skills: Skill[] = await sanityClient.fetch('*[_type == "skills"][0].skillslist');
 
     const projects = rawProjects.map(processProjectEntry);
     
-    return {workExperience, projects};
+    return {workExperience, projects, skills};
 }
