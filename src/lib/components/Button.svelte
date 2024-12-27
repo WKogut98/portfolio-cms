@@ -4,7 +4,7 @@
     interface ButtonProps
     {
         children: Snippet,
-        onclick: ((e: MouseEvent) => void | (()=>void)),
+        onclick: ((e: MouseEvent) => void) | (()=>void),
         className?: string;
     }
 
