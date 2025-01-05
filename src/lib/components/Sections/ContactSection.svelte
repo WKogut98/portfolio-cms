@@ -1,7 +1,5 @@
 <script lang="ts">
-    import {Button, SectionHeadline} from "$components";;
-    import { POST } from "../../../routes/api/send-mail/+server";
-
+    import {Button, SectionHeadline} from "$components";
 
     let contactName = $state('');
     let contactMail = $state('');
@@ -47,7 +45,7 @@
         })
 
 </script>
-<section class="mt-l">
+<section class="mt-l" id="contact-form">
     <SectionHeadline sectionName="contact-form">Let's talk</SectionHeadline>
     <div class="form-container default-margin mt-m">
         {#if isEmailSent}

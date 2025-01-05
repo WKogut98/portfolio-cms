@@ -17,7 +17,7 @@
     }
 </script>
 
-<section class="about-me mt-l">
+<section class="about-me mt-l" id="about-me">
     <SectionHeadline sectionName={"about-me"}>
         About Me
     </SectionHeadline>

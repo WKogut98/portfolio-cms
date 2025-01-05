@@ -1,7 +1,10 @@
 <script lang="ts">
-    import '../app.css';
+    import { Header, Footer } from '$components';
+import '../app.css';
 
     let { children } = $props();
 </script>
 
+<Header/>
 {@render children()}
+<Footer/>

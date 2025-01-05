@@ -37,4 +37,9 @@
     {
         box-shadow: inset gray 0px 0px 60px -12px;
     }
+    .nav-bar
+    {
+        padding: 10px 24px;
+        font-size: 20px;
+    }
 </style>

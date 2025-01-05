@@ -9,7 +9,7 @@
     const mainProject = projects[0];
 </script>
 
-<section class="mt-l">
+<section class="mt-l" id="work">
     <SectionHeadline sectionName="my-work">My Work</SectionHeadline>
     <div class="project-container default-margin mt-m">
         <article class="main-project mb-m">
