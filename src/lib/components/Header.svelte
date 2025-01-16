@@ -9,7 +9,7 @@
 </script>
 
 <nav class="navbar default-margin">
-    <a href = "/" class="logo">NF</a>
+    <a href = "/" class="logo">WK</a>
     <div class="navbar-links">
         <a href="/#about-me" class="nav-link">About me</a>
         <a href="/#work" class="nav-link">My work</a>

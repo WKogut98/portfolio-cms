@@ -75,14 +75,11 @@
         </form>
         {/if}
         <div class="form-text">
-            <h3 class="bold mb-s">Talk to me about your project</h3>
+            <h3 class="bold mb-s">Want to work together? Message me</h3>
             <p>
-                I'm always excited to hear about new and innovative ideas! Whether
-                you're in the early stages of planning or have a well-defined project,
-                I'm here to help bring your vision to life. Feel free to drop me a
-                message with some details about your project, and let's start a
-                conversation about how we can work together. I look forward to
-                connecting with you and discussing the possibilities. Talk to you soon!
+                Do you need a website? Do you have a company and are looking for developers?
+                I'm always willing to hear about new projects and ideas.
+                Feel free to message me and I will get back to you as soon as possible.
             </p>
         </div>
     </div>

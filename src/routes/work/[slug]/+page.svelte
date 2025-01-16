@@ -8,6 +8,10 @@
         if(style === 'normal') return 'p';
         else return style;
     }
+    function parseText(text: string): string {
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+        return text.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+    }
 </script>
 
 <main class="work-page default-margin">
@@ -30,7 +34,7 @@
             {#each content as block}
                 {#if block.type === 'text'}
                     <svelte:element this={getTag(block.style)}>
-                        {block.textToRender}
+                        {@html parseText(block.textToRender)}
                     </svelte:element>
                 {:else}
                     <img class="content-image" src={block.url} alt=""/>
