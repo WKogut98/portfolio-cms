@@ -100,4 +100,18 @@
         font-size: 18px;
         margin-bottom: 0;
     }
+
+    @media(max-width: 768px)
+    {
+        .project
+        {
+            width: 100%;
+        }
+        .more-projects-container img{
+            height: 300px;
+        }
+        .main-project img{
+            max-height: 300px;
+        }
+    }
 </style>

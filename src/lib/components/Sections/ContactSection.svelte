@@ -171,4 +171,22 @@
     {
         display: flex;
     }
+
+    @media(max-width: 1080px)
+    {
+        .form-container
+        {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        form
+        {
+            width: 96%;
+        }
+        .form-text
+        {
+            margin-top: 32px;
+            width: 100%;
+        }
+    }
 </style>

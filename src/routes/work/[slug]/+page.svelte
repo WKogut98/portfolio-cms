@@ -24,7 +24,7 @@
             <h3 class="semi-bold">Date</h3>
             <p>{date.slice(0,4)}</p>
             <h3 class="semi-bold mt-m">Tech Stack</h3>
-            <ul>
+            <ul class="tech-stack">
             {#each stack as technology}
                 <li>{technology}</li>
             {/each}
@@ -73,4 +73,19 @@
         min-width: 200px;
     }
 
+    @media (max-width: 1080px) 
+    {
+        .tech-stack 
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            overflow-x: auto;
+        }
+
+        .tech-stack li 
+        {
+            white-space: nowrap;
+        }
+    }
 </style>

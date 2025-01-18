@@ -36,6 +36,7 @@ button {
 }
 
 body {
+  overflow-x: hidden;
   font-family: "Inter Tight", sans-serif;
 }
 
@@ -142,4 +143,28 @@ p {
 
 .semi-bold {
   font-weight: 500;
+}
+
+@media (max-width: 1080px) {
+
+  .default-margin {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .hero-section h1 {
+    font-size: 40px;
+  }
+
+  .hero-section h3 {
+    font-size: 20px;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project {
+    width: 100%;
+  }
 }

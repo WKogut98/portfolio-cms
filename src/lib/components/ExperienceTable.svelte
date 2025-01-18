@@ -61,4 +61,18 @@
         display: flex;
         justify-content: space-between;
     }
+    @media (max-width: 1366px)
+    {
+        .work-experience
+        {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .work-experience-list
+        {
+            margin-top: 32px;
+            align-items: center;
+            width: 90%;
+        }
+    }
 </style>

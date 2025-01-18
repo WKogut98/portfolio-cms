@@ -37,4 +37,12 @@
         font-size: 80px;
         color: black;
     }
+
+    @media (max-width: 768px)
+    {
+        .skills-container
+        {
+            width: 100%;
+        }
+    }
 </style>
